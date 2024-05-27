@@ -1,4 +1,4 @@
-package ejemplo3;
+package EjemploExcepcionesNoCheckeadas.unchecked;
 
 public class DividirPorZeroException extends Exception{
 

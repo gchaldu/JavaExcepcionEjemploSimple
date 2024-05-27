@@ -1,4 +1,4 @@
-package EjemploExcepcionesConsola;
+package EjemploExcepcionesNoCheckeadas;
 
 public class MainSoloLetras {
     public static void main(String[] args){

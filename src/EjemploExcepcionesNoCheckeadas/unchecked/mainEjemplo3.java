@@ -1,4 +1,4 @@
-package ejemplo3;
+package EjemploExcepcionesNoCheckeadas.unchecked;
 
 public class mainEjemplo3 {
     public static void main(String[] args) {

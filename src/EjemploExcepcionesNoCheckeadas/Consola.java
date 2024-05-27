@@ -1,4 +1,4 @@
-package EjemploExcepcionesConsola;
+package EjemploExcepcionesNoCheckeadas;
 
 import java.util.Scanner;
 
