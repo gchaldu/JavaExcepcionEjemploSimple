@@ -3,7 +3,6 @@ package EjemploExcepcionesNoCheckeadas;
 public class MainSoloLetras {
     public static void main(String[] args){
         Consola consola = new Consola();
-
         try {
             consola.ingreseCadena("Ingrese el nombre de Usuario");
         } catch (SoloLetrasExcepcion e) {
@@ -12,7 +11,5 @@ public class MainSoloLetras {
             System.out.println("cerrar...");
         }
         System.out.println("continua la ejecucion");
-
-
     }
 }
