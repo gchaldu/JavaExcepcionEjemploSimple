@@ -1,16 +1,18 @@
 package com.chaldu.checked;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
 public class EjemploChecked {
     public static void main(String[] args) {
         try {
-            readFile("productos.txt");
+            readFile("productos2.txt");
         } catch (IOException e) {
-            System.out.println("An error occurred: " + e.getMessage());
+            System.out.println(e.getMessage());
         }
+        System.out.println("Continua...");
     }
 
     public static void readFile(String fileName) throws IOException {

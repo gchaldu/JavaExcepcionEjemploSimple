@@ -29,6 +29,7 @@ public class Main {
             System.out.println("Error " + ae.getMessage());
         }catch (DivisionZeroException ea) {
             System.out.println(ea.getMessage());
+            ea.printStackTrace();
         }finally {
             System.out.println("cerrar base de datos");
         }
